@@ -1,0 +1,33 @@
+Geocoder Component
+
+A CakePHP component for performing forward or reverse geocoding operations using
+The Google Geocoding Web Service
+
+INSTALLATION
+------------
+
+Copy geocoder.php to your app/controllers/components directory
+
+CONFIGURATION
+---------------
+
+In your controller, add the Geocoder Component to your $components array
+
+    public $components = array('Geocoder');
+
+USAGE
+---------------
+
+The following example shows how to geocode an address from within a controller
+action:
+
+    $this->Geocoder->address = '1 Pitt Street Sydney NSW Australia 2000';
+    $this->Geocoder->geocode();
+    debug($this->Geocoder);
+    exit;
+
+LICENSE
+-------
+
+The files in this archive are released under the new BSD license. You can find a
+copy of this license in LICENSE.
