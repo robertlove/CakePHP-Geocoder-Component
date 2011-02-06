@@ -1,11 +1,33 @@
 <?php
 /**
- * GeocoderComponent
+ * Geocoder Component
+ *
+ * LICENSE
+ *
+ * This source file is subject to the new BSD license that is bundled with this
+ * package in the file LICENSE. It is also available through the world-wide-web
+ * at this URL: http://www.opensource.org/licenses/bsd-license
+ *
+ * @category   Components
+ * @package    CakePHP
+ * @subpackage PHP
+ * @copyright  Copyright (c) 2011 Signified (http://signified.com.au)
+ * @license    http://www.opensource.org/licenses/bsd-license    New BSD License
+ * @version    1.0
+ */
+
+/**
+ * GeocoderComponent class
  *
  * This component is used for performing forward or reverse geocoding operations
  * using The Google Geocoding Web Service
  * http://code.google.com/apis/maps/documentation/geocoding/
  *
+ * @category   Components
+ * @package    CakePHP
+ * @subpackage PHP
+ * @copyright  Copyright (c) 2011 Signified (http://signified.com.au)
+ * @license    http://www.opensource.org/licenses/bsd-license    New BSD License
  */
 class GeocoderComponent extends Object
 {
